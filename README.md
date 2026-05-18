@@ -43,11 +43,13 @@ Untuk mengatasi masalah utama di mana **Gaya Hidup** menjadi beban pengeluaran d
 ## Teknologi yang Digunakan
 
 - Python
-- Streamlit
-- Pandas
-- NumPy
-- Plotly Express
-- Matplotlib
+- streamlit
+- pandas
+- plotly
+- numpy
+- seaborn
+- matplotlib
+- scipy
 
 ---
 
