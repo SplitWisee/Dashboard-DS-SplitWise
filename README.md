@@ -26,6 +26,7 @@ Dashboard ini bukan sekadar alat visualisasi, melainkan solusi untuk masalah *fi
   Penjelasan teks otomatis yang berubah sesuai dengan filter usia yang dipilih pengguna.
 
 ---
+
 ## 🧪 Eksperimen A/B Testing
 Untuk mengatasi masalah utama di mana **Gaya Hidup** menjadi beban pengeluaran dominan, dilakukan eksperimen A/B Testing terhadap fitur baru: **Real-time Pop-up Budget Warning**.
 
@@ -36,7 +37,6 @@ Untuk mengatasi masalah utama di mana **Gaya Hidup** menjadi beban pengeluaran d
 ## **Hasil Uji Statistik (Two-Sample T-Test):**
 - **T-Statistic:** 7.0555
 - **P-Value:** 0.000000 (Signifikan pada alpha = 5%)
-
 **Kesimpulan Bisnis:** Karena $P-Value < 0.05$, $H_0$ ditolak. Implementasi fitur *Pop-up Warning* secara nyata dan signifikan terbukti berhasil mengontrol pengeluaran gaya hidup pengguna dan meningkatkan rata-rata tabungan bulanan mereka pada sistem SplitWise.
 ---
 
