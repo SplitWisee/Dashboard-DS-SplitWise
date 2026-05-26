@@ -28,17 +28,18 @@ Dashboard ini bukan sekadar alat visualisasi, melainkan solusi untuk masalah *fi
 ---
 
 ## 🧪 Eksperimen A/B Testing
-Untuk mengatasi masalah utama di mana **Gaya Hidup** menjadi beban pengeluaran dominan, dilakukan eksperimen A/B Testing terhadap fitur **Smart Budgeting**.
+Untuk mengatasi masalah utama di mana **Gaya Hidup** menjadi beban pengeluaran dominan, dilakukan eksperimen A/B Testing terhadap implementasi fitur **Smart Budgeting**.
 
-- **Grup Control (A):** Pengguna kategori Bad tanpa fitur Smart Budgeting.
-- **Grup Treatment (B):** Pengguna kategori Bad dengan aktivasi fitur Smart Budgeting.
+- **Grup Control (A):** Pengguna kategori "Bad" tanpa fitur Smart Budgeting.
+- **Grup Treatment (B):** Pengguna kategori "Bad" dengan aktivasi fitur Smart Budgeting.
 - **Metrik Evaluasi:** Peningkatan rata-rata tabungan (`savings`) bulanan pengguna.
 
 ### **Hasil Uji Statistik (Two-Sample T-Test):**
-- **T-Statistic:** 54.3411 (Hasil simulasi akan bervariasi)
+- **T-Statistic:** 55.8566 *(Hasil simulasi dapat bervariasi)*
 - **P-Value:** 0.000000 (Signifikan pada alpha = 5%)
 
-  **Kesimpulan Bisnis:** Karena $P-Value < 0.05$, $H_0$ ditolak. Implementasi fitur *Smart Budgeting* secara nyata dan signifikan terbukti berhasil mengontrol pengeluaran gaya hidup pengguna dan menyelamatkan mereka dari defisit finansial, mendorong transisi status mereka dari 'Bad' menuju 'Average'.
+💡 **Kesimpulan Bisnis:** Karena **P-Value < 0.05**, kita menolak **H0**. Implementasi fitur *Smart Budgeting* secara nyata dan signifikan terbukti berhasil mengontrol pengeluaran gaya hidup pengguna dan menyelamatkan mereka dari defisit finansial, sehingga mendorong transisi status mereka dari **'Bad'** menuju **'Average'**.
+
 ---
 
 ## Teknologi yang Digunakan
